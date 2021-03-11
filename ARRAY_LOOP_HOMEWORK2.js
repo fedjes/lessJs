@@ -64,16 +64,3 @@ const data = [
 ]
 
 
-let eingabe = prompt();
-let array = [];
-for(let i = 0; i < data.length; i++){
-  
-  if(eingabe == data[i].type){
-    array.push(data[i]);
-    console.log(data[i]);
-  }
-
-
-}
-console.log(eingabe);
-console.log(array);
